@@ -1,0 +1,12 @@
+<html>
+<head>
+<title>Directives Tag</title>
+</head>
+<body>
+	<%
+		String url = null;
+		out.println(str.toString());
+	%>
+
+</body>
+</html>
