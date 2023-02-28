@@ -1,8 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%-- tomcat 9 버전으로 낮추면 가능 
-	<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
---%>
+
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
 <!DOCTYPE html>
 <html>
 <head>
