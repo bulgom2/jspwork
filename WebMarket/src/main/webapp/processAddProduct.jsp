@@ -22,7 +22,7 @@
 	String description = multi.getParameter("description");
 	String manufacturer = multi.getParameter("manufacturer");
 	String category = multi.getParameter("category");
-	String unitInStock = multi.getParameter("unitInStock");
+	String unitsInStock = multi.getParameter("unitsInStock");
 	String condition = multi.getParameter("condition");
 
 	Integer price;
@@ -34,10 +34,10 @@
 	
 	long stock;
 	
-	if (unitInStock.isEmpty())
+	if (unitsInStock.isEmpty())
 		stock = 0;
 	else
-		stock = Long.valueOf(unitInStock);
+		stock = Long.valueOf(unitsInStock);
 	
 	Enumeration files = multi.getFileNames();
 	String fname = (String) files.nextElement();
