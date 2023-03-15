@@ -53,6 +53,12 @@
 					</div>
 				</div>
 				<div class="form-group-row">
+					<label class="col-sm-2">상세 설명</label>
+					<div class="col-sm-5">
+						<textarea name="description" cols="50" rows="2" class="form-control"><%=rs.getString("p_description")%></textarea>
+					</div>
+				</div>
+				<div class="form-group-row">
 					<label class="col-sm-2">제조사</label>
 					<div class="col-sm-3">
 						<input type="text" name="manufacturer" class="form-control" value="<%=rs.getString("p_manufacturer")%>">
@@ -86,7 +92,7 @@
 				</div>
 				<div class="form-group-row">
 					<div class="col-sm-offset-2 col-sm-10">
-						<input type="button" class="btn btn-primary" value="등록">
+						<input type="submit" class="btn btn-primary" value="등록">
 					</div>
 				</div>
 			</div>
